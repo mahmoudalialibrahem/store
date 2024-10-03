@@ -1,0 +1,118 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* style public */
+    
+     :root {
+        --color-orange: #FF9100;
+        --color-green: #00712D;
+        --color-bg: #D5ED9F;
+        --color-black: #000000c7;
+    }
+    
+    html,
+    body {
+        min-height: 100%;
+        font-family: "Cairo", sans-serif !important;
+    }
+    /* start navbar  */
+    
+    #navbar {
+        background-color: var(--color-green) !important;
+    }
+    
+    .navbar .navbar-brand {
+        color: white;
+        margin-left: 10px !important;
+    }
+    
+    .navbar .nav-item .nav-link {
+        color: white;
+    }
+    /* public  */
+    
+    .actives {
+        color: var(--color-black) !important;
+    }
+    /* start slider */
+    
+    .carousel .carousel-inner .carousel-item .bg {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000c7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* end slider */
+    /* start content */
+    
+    .card-group {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-group .card {
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: #eee;
+        margin: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        text-align: center;
+        transition: all 0.5ms ease;
+    }
+    
+    .card-group .card .title {
+        font-weight: bold;
+        color: var(--color-green);
+    }
+    
+    .card-group .card:hover {
+        transform: translateY(4px);
+    }
+    /* end content */
+    /* start footer */
+    
+    .footer {
+        text-align: center;
+        padding: 10px;
+        margin-top: 40px;
+        background-color: var(--color-black);
+        color: white;
+    }
+    /* end footer */
+    /* public */
+    
+    h4.title {
+        width: fit-content;
+        position: relative;
+        color: var(--color-green);
+        font-weight: bolder;
+        margin: 10px auto;
+    }
+    
+    h4.title::after {
+        content: '';
+        position: absolute;
+        left: -50px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 45px;
+        height: 2px;
+        background-color: var(--color-black);
+    }
+    
+    h4.title::before {
+        content: '';
+        position: absolute;
+        right: -50px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 45px;
+        height: 2px;
+        background-color: var(--color-black);
+    }

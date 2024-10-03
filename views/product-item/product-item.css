@@ -1,0 +1,39 @@
+html {
+    overflow-x: hidden;
+}
+
+.product {
+    min-height: 100vh;
+    width: 100vw;
+    margin-top: 70px;
+}
+
+.product .card-group .card-product {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product .card-group .card-product .image img {
+    width: 200px;
+    height: 160px;
+}
+
+.product .card-group .card-product .type {
+    color: gray;
+}
+
+.product .card-group .card-product .name {
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.product .card-group .card-product .price {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #00712d44;
+    color: var(--color-green);
+}

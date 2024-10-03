@@ -1,0 +1,8 @@
+.product {
+    height: 100vh;
+    width: 100vw;
+}
+
+.product .card-group .card {
+    margin-top: 70px;
+}

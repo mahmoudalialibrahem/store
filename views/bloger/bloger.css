@@ -1,0 +1,52 @@
+article {
+    margin-top: 70px;
+}
+
+article .card-article {
+    padding: 10px;
+}
+
+article .card-article {
+    width: 60vw;
+    margin: auto;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+article .card-article .image img {
+    width: 58vw;
+    height: 500px;
+}
+
+article .card-article .title {
+    font-size: 20px;
+    color: var(--color-green);
+}
+
+article .card-article .row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article .card-article .row .date,
+.btn-action {
+    width: fit-content !important;
+}
+
+article .card-article .btn-action .btn {
+    background-color: var(--color-green);
+    color: white;
+}
+
+article .card-article .row .date>i {
+    color: var(--color-green);
+}
+
+article .card-article .bottom-share i {
+    margin-left: 5px;
+    color: var(--color-black);
+    font-size: 20px;
+    cursor: pointer;
+}

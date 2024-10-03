@@ -1,0 +1,43 @@
+html {
+    overflow-x: hidden;
+}
+
+.about-box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-box .card-info {
+    width: 50%;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-box .card-info .about-title {
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.about-box .card-info .about-content {
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.about-box .card-info .socail-contact>i {
+    font-size: 25px;
+    color: var(--color-green);
+    transition: all 0.5ms ease-out;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.socail-contact i:hover {
+    color: var(--color-orange) !important;
+}
