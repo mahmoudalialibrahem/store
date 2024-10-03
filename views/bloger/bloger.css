@@ -50,3 +50,16 @@ article .card-article .bottom-share i {
     font-size: 20px;
     cursor: pointer;
 }
+
+
+/* responsive media */
+
+@media (max-width:600px) {
+    article .card-article {
+        width: 95vw;
+    }
+    article .card-article .image img {
+        width: 90vw;
+        height: 200px;
+    }
+}

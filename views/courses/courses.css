@@ -1,0 +1,15 @@
+article .card-article .image video {
+    width: 58vw;
+    height: 500px;
+}
+
+article .card-article {
+    margin-bottom: 10px;
+}
+
+@media (max-width:600px) {
+    article .card-article .image video {
+        width: 90vw;
+        height: 200px;
+    }
+}

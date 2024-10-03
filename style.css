@@ -46,6 +46,10 @@
         justify-content: center;
         align-items: center;
     }
+    
+    .carousel .carousel-inner .carousel-item .bg>img {
+        width: 400px;
+    }
     /* end slider */
     /* start content */
     
@@ -69,6 +73,10 @@
     .card-group .card .title {
         font-weight: bold;
         color: var(--color-green);
+    }
+    
+    .card-group .card .subtitle {
+        color: var(--color-black);
     }
     
     .card-group .card:hover {
@@ -115,4 +123,15 @@
         width: 45px;
         height: 2px;
         background-color: var(--color-black);
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    /* responsive media */
+    
+    @media (max-width:600px) {
+        .carousel .carousel-inner .carousel-item .bg>img {
+            width: 250px;
+        }
     }

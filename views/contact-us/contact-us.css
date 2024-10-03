@@ -24,3 +24,9 @@ section form .btn-send {
     color: white;
     padding: 5px 0px !important;
 }
+
+@media (max-width:600px) {
+    section .box {
+        width: 95%;
+    }
+}

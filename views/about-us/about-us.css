@@ -41,3 +41,9 @@ html {
 .socail-contact i:hover {
     color: var(--color-orange) !important;
 }
+
+@media (max-width:600px) {
+    .about-box .card-info {
+        width: 95vw;
+    }
+}
